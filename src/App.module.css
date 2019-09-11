@@ -1,0 +1,20 @@
+.container {
+  padding: 20px;
+  background-color: rgba(255, 255, 255, 0.1);
+  width: 200px;
+  height: 200px;
+  overflow: hidden;
+}
+
+.content {
+  padding: 5px;
+  background-color: rgba(0, 0, 0, 0.1);
+}
+
+.transformed {
+  width: 20px;
+  height: 20px;
+  background-color: red;
+  transform: translate3d(10px, 10px, 10px);
+  contain: paint;
+}
