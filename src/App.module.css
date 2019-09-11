@@ -2,19 +2,19 @@
   padding: 20px;
   background-color: rgba(255, 255, 255, 0.1);
   width: 200px;
-  height: 200px;
   overflow: hidden;
 }
 
-.content {
-  padding: 5px;
+.transformed {
+  margin: 5px 0;
   background-color: rgba(0, 0, 0, 0.1);
+  transform: translate3d(0, 0, 0);
+  contain: paint;
 }
 
-.transformed {
-  width: 20px;
-  height: 20px;
-  background-color: red;
-  transform: translate3d(10px, 10px, 10px);
-  contain: paint;
+a {
+  color: #fff;
+  display: block;
+  text-align: center;
+  margin-top: 20px;
 }
